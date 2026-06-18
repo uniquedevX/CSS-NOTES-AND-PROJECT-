@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project-1</title>
+    <style>
+        * {
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        
+
+        }
+
+       /*different methods to show the related div in the center using flex box and grid propert! 
+       Method 1 - Make the parent position relative and child poston absolute
+       Method 2 - Make the parent position directly usin flex box
+       Method 3 - Make the parent position directly in center by basic grid property
+       Method 4 - to aliign text use the same method or propetrties
+       Method 5 - Assigning display flex to parent and margin auto to child */
+            body{
+                height: 100vh;
+                background-color: bisque;
+                position: relative;
+                display: flex;
+            }
+            .no1{
+             border: solid black 2px;
+            border-radius: 20px;
+            width: 400px;
+            height: 400px;
+            background-color: rgb(0, 0, 0);
+                margin: auto;
+                  display: flex;
+                justify-content: center;
+                align-items: center;
+
+            }
+            h1{
+                color:white;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            /*.no1{
+            border: solid black 2px;
+            border-radius: 20px;
+            width: 400px;
+            height: 400px;
+            background-color: rgb(255, 255, 255);
+            position:absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+
+            }
+            /*.no1{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }*/
+
+
+    </style>
+</head>
+<body>
+    
+    <div class="no1">
+            <h1>This is our main div</h1>
+    </div>
+</body>
+</html>
