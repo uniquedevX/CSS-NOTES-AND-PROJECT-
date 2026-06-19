@@ -1,0 +1,63 @@
+<!--Carousal Effect project 2-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project - 2 </title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            display: grid;
+            place-items: center;
+            min-height: 100vh;
+        }
+        .container-image{
+            width: 650px;
+            height: 350px;
+            border-radius: 20px;
+            border: transparent;
+            background-image: url(/img/4.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            border: 2px solid transparent;
+            animation: background 7s linear infinite;
+            box-shadow: 0 0 1.6 2px rgba(0, 0, 0,0.5);
+        }
+
+            @keyframes  background {
+                0%{
+                    background-image: url(/img/4.jpg);
+                    background-size: cover ;
+                }
+                25%{
+                    background-image: url(/img/5.jpg);
+                    background-size: cover ;
+                }
+                50%{
+                    background-image: url(/img/6.jpg);
+                    background-size: cover ;
+                }
+                75%{
+                    background-image: url(/img/6.jpg);
+                    background-size: cover ;
+                }
+                100%{
+                    background-image: url(/img/7.jpg);
+                    background-size: cover ;
+                }
+            }
+    </style>
+</head>
+<body>
+    <div class="container-image">       
+    </div>
+    
+</body>
+</html>
