@@ -6,12 +6,13 @@ Welcome to my CSS learning repository! This project tracks my journey into maste
 
 ## 🚀 Progress Tracker
 - [x] Project 1: Demonstration of Flex and Grid properties to align content in center
-- [ ] Project 2: *[Upcoming]*
-- [ ] Project 3: *[Upcoming]*
-- [ ] Project 4: *[Upcoming]*
-- [ ] Project 5: *[Upcoming]*
-- [ ] Project 6: *[Upcoming]*
-- [ ] Project 7: *[Upcoming]*
+- [ ] Project 2: Carousal Effect (worldcup edition)
+- [ ] Project 3:loader window animation using css
+- [ ] Project 4: basic password generator ui using html and css
+- [ ] Project 5: basic calculator ui by html and css
+- [ ] Project 6: newtons cradle animation by css after and before pusedo elements 
+- [ ] Project 7: card layout (worldcup edition) <!--I will add more projects basics one-->
+ (Advanced projects)
 - [ ] Project 8: *[Upcoming]*
 - [ ] Project 9: *[Upcoming]*
 - [ ] Project 10: *[Upcoming]*
