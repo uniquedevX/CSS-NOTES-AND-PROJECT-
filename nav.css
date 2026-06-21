@@ -1,0 +1,341 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(250, 252, 252);
+    overflow-x: hidden; 
+}
+
+
+.navtop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(250, 252, 252, 0.95);
+    backdrop-filter: blur(5px);
+    padding: 15px 20px;
+    margin: 10px; 
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+    position: sticky;
+    top: 10px;
+    z-index: 1000; 
+}
+
+.navlinks {
+    display: flex;
+    justify-content: space-between;
+    gap: 18px;
+}
+
+.navlinks a {
+     text-decoration: none;
+     color: black;
+     font-weight: 600;
+     cursor: pointer;
+     transition: color 0.3s ease;
+}
+
+.navlinks a:hover {
+    color: rgb(245, 122, 122);
+}
+
+.navtop h2 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+/* section main starts here */
+
+
+
+.grid {
+    background-image: url(/img/bggrid.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 80vh; 
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 15px;
+    padding: 10px;
+}
+
+.grid-left {
+    background-color: rgb(186, 217, 248);
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    justify-content: center; 
+    border-radius: 10px;
+    text-align: center;    
+}
+
+.grid-left h1 {
+    font-size: 3.6rem;
+    color: red;
+    margin-bottom: 10px;
+}
+
+.grid-left p {
+   font-weight: 600;
+   font-style: italic;
+   margin-bottom: 20px;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px; 
+}
+
+.grid-left button {
+    padding: 12px 24px;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(250, 30, 30);
+    color: rgb(255, 253, 253);
+    font-weight: bold;
+    border-radius: 16px;
+    transition: all 0.4s ease;
+}
+
+.grid-left button:hover {
+    background-color: rgba(240, 160, 160, 1);
+    transform: translateY(-2px);
+}
+
+.grid-right {
+    background-image: url(/img/cloth.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+/*third section starts here*/
+
+
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem max(10px, 2vw);
+    gap: 2rem;
+}
+
+.ifield {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.ifield input {
+    width: 100%;
+    max-width: 400px;
+    outline: none;
+    height: 45px;
+    border-radius: 2rem;
+    border: solid 1px rgba(200, 200, 200, 0.8);
+    text-align: center;
+    font-size: 1rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+
+/*products grid starts here*/
+
+
+.products-grid {
+    display: grid;
+   
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 25px; 
+    width: 100%;
+    max-width: 1300px; 
+    justify-items: center; 
+}
+
+
+/* grid cards start here */
+
+
+
+.card {
+    background-color: #ffffff;
+    width: 100%; 
+    max-width: 300px; 
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-image {
+    width: 100%;
+    height: 200px; 
+    object-fit: cover;
+    background-color: #e2e8f0; 
+}
+
+.card-content {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    flex-grow: 1; 
+}
+
+.product-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #333;
+}
+
+.product-description {
+    font-size: 0.9rem;
+    color: #666;
+    line-height: 1.4;
+    margin-bottom: 8px;
+}
+
+.product-price {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #2b6cb0;
+    margin-top: auto;
+    margin-bottom: 12px;
+}
+
+.card-actions {
+    display: flex;
+    gap: 8px;
+}
+
+.btn {
+    padding: 10px 12px;
+    border: none;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.btn-add {
+    background-color: #3182ce;
+    color: white;
+    flex: 2; 
+}
+
+.btn-add:hover {
+    background-color: #2b6cb0;
+}
+
+.btn-info {
+    background-color: #edf2f7;
+    color: #4a5568;
+    flex: 1; 
+}
+
+.btn-info:hover {
+    background-color: #e2e8f0;
+}
+
+
+/*media queries from ai*/
+
+
+
+
+
+
+/* --- MEDIA QUERIES FOR TABLET & DESKTOP BRAKES --- */
+@media (max-width: 1200px) {
+    /* 3 Columns on smaller laptops/large tablets */
+    .products-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 900px) {
+    /* 2 Columns on standard tablets */
+    .products-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+}
+
+/* --- RESPONSIVE MEDIA QUERY (Mobile Screens) --- */
+@media (max-width: 600px) {
+    .navtop {
+        flex-direction: row; 
+        justify-content: space-between;
+        padding: 12px 15px;
+        gap: 10px;
+    }
+
+    .navtop h2 {
+        font-size: 0.95rem; 
+        white-space: nowrap; 
+    }
+
+    .navlinks {
+        gap: 10px; 
+    }
+
+    .navlinks a {
+        font-size: 0.85rem;
+    }
+    
+    .grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        height: auto; 
+    }
+    
+    .grid-left {
+        height: auto;
+        padding: 50px 20px;
+        text-align: center;
+    }
+
+    .grid-left h1 {
+        font-size: 2.2rem; 
+    }
+
+    .button-group {
+        flex-direction: row; 
+        justify-content: center;
+    }
+    
+    .grid-right {
+        height: 300px; 
+        background-size: cover;
+    }
+
+    /* 1 Column on Mobile Viewports */
+    .products-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+}
