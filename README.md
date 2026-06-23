@@ -16,7 +16,7 @@ Welcome to my CSS learning repository! This project tracks my journey into maste
 | **06** | Newton's Cradle Animation (using `::before` & `::after`) |  Completed |
 | **07** | Advanced Card Layout (World Cup Edition) |  Completed |
 | **08** | First Ever Responsive small Clothing shop website | Completed |
-| **09** | *Upcoming Project* | ⏳ Pending |
+| **09** | Grocery Store demo webiste ui only! | ⏳ Pending |
 | **10** | *Upcoming Project* | ⏳ Pending |
 
 ---
