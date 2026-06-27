@@ -50,6 +50,9 @@
             font-weight: 700;
         }
 
+        .navlinks{
+            display: flex;
+        }
         .navlinks a {
             text-decoration: none;
             color: #555;
