@@ -17,7 +17,7 @@ Welcome to my CSS learning repository! This project tracks my journey into maste
 | **07** | Advanced Card Layout (World Cup Edition) |  Completed |
 | **08** | First Ever Responsive small Clothing shop website | Completed |
 | **09** | Grocery Store demo webiste ui only! | Completed|
-| **10** | *Upcoming Project* | ⏳ Pending |
+| **10** | Spotyfy Ui Clone| ⏳ Pending |
 
 ---
 
