@@ -1,148 +1,157 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
+
+
 <head>
+
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Lila Groceries - Best Grocery store in the market">
-    <title>Lila Groceries | Fresh & Healthy</title>
-    <link rel="stylesheet" href="style.css">
+
+    <meta name="description" content="The best spotyfy clone by the begineer">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="spotyfy.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <title>Spotyfy Clone | Play Music |</title>
+
+
+
 </head>
+
+
+
 <body>
 
 
-    
+
+    <!--Header and Navigation-->
+
     <header>
-        <div class="container">
-            <div class="logo">
-                <h3>Lila <span>Groceries</span></h3>
+
+        <nav class="navbar">
+
+            <div class="right-nav">
+
+                <div class="logo">
+
+                    <i class="fa-brands fa-spotify"></i>
+
+                </div>
+
+                <div class="home">
+
+                    <i class="fa-solid fa-house"></i>
+
+                </div>
+
+                <div class="searchbar">
+
+                    <i class="fa-solid fa-magnifying-glass search-icon"></i>
+
+                    <input type="text" placeholder="What do you want to play?">
+
+                    <i class="fa-solid fa-folder-open folder-icon"></i>
+
+                </div>
+
             </div>
-            <nav class="navlinks">
-                <a href="#home">Home</a>
-                <a href="#shop">Shop</a>
-                <a href="#contact">Contact</a>
-            </nav>
-        </div>
+
+            <div class="midnav">
+
+                <p>Premium</p>
+
+                <p>Support</p>
+
+                <p>Download</p>
+
+            </div>
+
+            <div class="endnav">
+
+                <div class="install-app">
+
+                    <i class="fa-solid fa-circle-down"></i>
+
+                    <p>Install</p>
+
+                </div>
+
+                <p class="signup">Signup</p>
+
+                <button class="login-btn">Log-in</button>
+
+            </div>
+
+        </nav>
+
     </header>
 
-    <section id="home" class="hero">
-        <div class="hero-content">
-            <h1>Fresh Groceries, Delivered Daily</h1>
-            <p>The best grocery store in Dhulabari!</p>
-            <a href="#shop" class="btn">Order Now</a>
-        </div>
-    </section>
 
 
+    <!--Main portion-->
 
+    <main>
 
+        <div class="main-left">
 
-    <section id="shop" class="shop-section">
-        <div class="container">
-            <h2 class="section-title">Products</h2>
-            
-            <div class="product-grid">
-                
-                <div class="card">
-                    <img src="https://static.vecteezy.com/system/resources/thumbnails/028/142/375/small/a-basket-filled-with-freshly-picked-apples-symbolizing-the-bountiful-harvest-of-autumn-against-a-minimal-white-backdrop-photo.jpg" alt="Fresh Apples" class="card-img">
-                    <div class="card-body">
-                        <h3 class="card-title">Apples</h3>
-                        <p class="card-price">Rs 150 / kg</p>
-                        <a href="#" class="card-btn">Add to Cart</a>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <img src="https://thumbs.dreamstime.com/b/banana-bunch-cluster-ripe-white-background-38776552.jpg" alt="Banana" class="card-img">
-                    <div class="card-body">
-                        <h3 class="card-title">Banana</h3>
-                        <p class="card-price">Rs 150 / Darjan</p>
-                        <a href="#" class="card-btn">Add to Cart</a>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <img src="https://cdn.pixabay.com/photo/2021/05/28/23/45/bread-6292215_640.jpg" alt="Whole Wheat Bread" class="card-img">
-                    <div class="card-body">
-                        <h3 class="card-title">Bread</h3>
-                        <p class="card-price">Rs 150 / packet</p>
-                        <a href="#" class="card-btn">Add to Cart</a>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <img src="https://images.unsplash.com/photo-1563636619-e9143da7973b?auto=format&fit=crop&w=400&q=80" alt="Fresh Milk" class="card-img">
-                    <div class="card-body">
-                        <h3 class="card-title">Organic Milk</h3>
-                        <p class="card-price">Rs 70 / litre</p>
-                        <a href="#" class="card-btn">Add to Cart</a>
-                    </div>
-                </div>
-
-                    <div class="card">
-                    <img src="https://img.magnific.com/premium-photo/indian-cuisine-raw-basmati-rice_1472-123161.jpg?semt=ais_hybrid&w=740&q=80" alt="Basmati Rice" class="card-img">
-                    <div class="card-body">
-                        <h3 class="card-title">Basmati Rice</h3>
-                        <p class="card-price">Rs 500</p>
-                        <a href="#" class="card-btn">Add to Cart</a>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="https://suhana.com/cdn/shop/articles/Garam-to-chat-500x380-2_1100x.png?v=1709544704" alt="Masalas" class="card-img">
-                    <div class="card-body">
-                        <h3 class="card-title">Masalas Combo</h3>
-                        <p class="card-price">Rs 500 all!</p>
-                        <a href="#" class="card-btn">Add to Cart</a>
-                    </div>
-                </div>
+            <div class="containermlhead">
+                <div class="library">Your Library</div>
+                <div class="plus">+</div>
+            </div>
+            <div class="leftflexcard">
+            <div class="leftcard1">
+                <h2 class="leftcardheader">Create your first playlist</h2>
+                <p class="leftcardp">Its easy,we'll help you</p>
+                <button class="playlistbtn">Create Playlist</button>
+            </div>
+            <div class="leftcard2">
+                <h2 class="leftcardheader">Lets find some podcast to follow!</h2>
+                <p class="leftcardp">We will keep you updated !</p>
+                <button class="playlistbtn">Browse Podcast</button>
+            </div>
             </div>
         </div>
-    </section>
+
+
+
+        <div class="main-right">
 
 
 
 
 
-    <section id="contact" class="contact-section">
-        <div class="container">
-            <h2 class="section-title">Contact Us</h2>
-            
-            <div class="contact-container">
-                <div class="contact-info">
-                    <h3>Get In Touch</h3>
-                    <p>Have questions about our items, delivery fees, or bulk orders? Reach out to us directly!</p>
-                    <br>
-                    <p><strong> Address:</strong> Jhapa Nepal</p>
-                    <p><strong> Phone:</strong> 980939237974</p>
-                    <p><strong>Email:</strong> uniquedevx@gmail.com</p>
-                </div>
 
-                <div class="contact-form">
-                    <form action="#">
-                        <div class="form-group">
-                            <label for="name">Your Name</label>
-                            <input type="text" id="name" required placeholder="Unique Shiwakoti">
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Email Address</label>
-                            <input type="email" id="email" required placeholder="uniqueshiwakoti@gmail.com">
-                        </div>
-                        <div class="form-group">
-                            <label for="message">Message</label>
-                            <textarea id="message" rows="5" required placeholder="Type your message here..."></textarea>
-                        </div>
-                        <button type="submit" class="submit-btn">Send Message</button>
-                    </form>
-                </div>
-            </div>
+
+
 
         </div>
-    </section>
+
+    </main>
 
     <footer>
-        <div class="container">
-            <p>&copy; 2026 Lila Groceries. All rights reserved. Mechinagar-10,Jhapa</p>
-        </div>
+        hello
     </footer>
 
+
+
+
+
 </body>
+
+
+
 </html>
