@@ -17,12 +17,15 @@ Welcome to my CSS learning repository! This project tracks my journey into maste
 | **07** | Advanced Card Layout (World Cup Edition) |  Completed |
 | **08** | First Ever Responsive small Clothing shop website | Completed |
 | **09** | Grocery Store demo webiste ui only! | Completed|
-| **10** | Spotyfy Ui Clone| Almost complete music cards section remains
+| **10** | Spotyfy Ui Clone| 
 |
 
 ---
 
 ## 📂 Project Logs
+links of project:https://firstevercssproject.netlify.app/
+SPOTYFY CLONE:https://spotyfycloneunique.netlify.app/
+it samaj nepal:https://spotyfycloneunique.netlify.app/
 
 ### 🏗️ Project 1: Flexbox & Grid Centering
 * **Description:** A practical exploration of centering elements perfectly using CSS Flexbox and Grid, along with implementing smooth animations.
