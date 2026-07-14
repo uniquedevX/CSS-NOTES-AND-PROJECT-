@@ -26,6 +26,7 @@ Welcome to my CSS learning repository! This project tracks my journey into maste
 links of project:https://firstevercssproject.netlify.app/
 SPOTYFY CLONE:https://spotyfycloneunique.netlify.app/
 it samaj nepal:https://spotyfycloneunique.netlify.app/
+https://lilakirana.netlify.app/
 
 ### 🏗️ Project 1: Flexbox & Grid Centering
 * **Description:** A practical exploration of centering elements perfectly using CSS Flexbox and Grid, along with implementing smooth animations.
