@@ -73,4 +73,4 @@ https://lilakirana.netlify.app/
 * **Micro-interactions:** Learn how subtle animations and transitions elevate the user experience.
 * **Consistency:** Keep track of professional growth across 10 distinct, self-contained CSS challenges.
 
-I am working on some projects and unable to add it immedietly so i will update the readme file so that i can keep my github streak so yes it help to keep greenish in my github profile
+I am working on some projects and unable to add it immedietly so i will update the readme file so that i can keep my github streak so yes it help to keep greenish in my github profile almost completed my css no moving towards java scrit!
